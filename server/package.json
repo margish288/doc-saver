@@ -1,0 +1,22 @@
+{
+  "name": "doc-saver",
+  "version": "1.0.0",
+  "description": "server for the document saver web-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "document",
+    "doc-saver"
+  ],
+  "author": "margish patel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "mongoose": "^8.4.1"
+  }
+}
